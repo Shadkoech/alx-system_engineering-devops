@@ -1,1 +1,1 @@
-This script takes us back to the previous directory
+This script lists all files including hiddent in the working, parent and boot
