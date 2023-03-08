@@ -1,1 +1,1 @@
-This script moves a file betty to another directory 
+This script deletes a file
