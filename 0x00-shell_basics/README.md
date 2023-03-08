@@ -1,1 +1,1 @@
-This script creates a symbolic link
+This script copying files into parent directory but those that did not exist
