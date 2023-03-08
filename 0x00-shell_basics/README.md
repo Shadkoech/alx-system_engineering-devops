@@ -1,1 +1,1 @@
-This script deletes a file
+This script deletes a directory
