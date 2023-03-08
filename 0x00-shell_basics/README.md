@@ -1,1 +1,1 @@
-This script deletes a directory
+This script takes us back to the previous directory
