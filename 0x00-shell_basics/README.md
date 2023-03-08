@@ -1,1 +1,1 @@
-This script lists all files including hiddent in the working, parent and boot
+This script prints they type of file
