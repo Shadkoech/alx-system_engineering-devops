@@ -1,1 +1,1 @@
-This script deletes all files in the working directory ending with ~
+This script creates 3 directories with / in the current directory
