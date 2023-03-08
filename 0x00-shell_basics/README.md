@@ -1,1 +1,1 @@
-This script moves all files beginning with upper case
+This script deletes all files in the working directory ending with ~
