@@ -1,1 +1,1 @@
-This script copying files into parent directory but those that did not exist
+This script moves all files beginning with upper case
