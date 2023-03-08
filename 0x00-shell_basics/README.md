@@ -1,1 +1,1 @@
-This script creates a directory 
+This script moves a file betty to another directory 
