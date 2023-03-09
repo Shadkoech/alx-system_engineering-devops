@@ -10,3 +10,4 @@ chmod ugo+x hello -> Adds excute permission to owner, group and others
 chmod 007 hello -> only gives others exclusive permissions
 chmod 753 hello -> gives the following permissions to the file hello -rwxr-x-w x
 chmod --reference=olleh hello -> Sets the mode of file hello same as olleh
+chmod -R ugo+X -> adds execute permission to all directories for owner, group and others
