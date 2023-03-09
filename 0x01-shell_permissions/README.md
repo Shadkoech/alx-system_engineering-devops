@@ -15,3 +15,4 @@ mkdir -m 751 my_dir -> creates a directory my_dir with 751 permission
 chgrp school hello -> changes the group owner to school from hello
 chown -hR vincent:staff . -> Chnages owner to vincent and group owner to staff
 chown -h vincent:staff -hello -> Chnage the owner and group owner of hello to vincent and staff
+chown --from=guillaume betty hello - >  changes the owner of the file hello to betty only if it is owned by the user guillaume
