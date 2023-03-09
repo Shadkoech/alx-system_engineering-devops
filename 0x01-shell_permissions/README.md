@@ -8,4 +8,5 @@ chmod u+x hello -> Executes the file hello
 chmod u+x,g+x,o+r -> adds execute permission to owner, group and allows other to read
 chmod ugo+x hello -> Adds excute permission to owner, group and others
 chmod 007 hello -> only gives others exclusive permissions
-chmod 753 hello -> gives the following permissions to the file hello -rwxr-x-wx
+chmod 753 hello -> gives the following permissions to the file hello -rwxr-x-w x
+chmod --reference=olleh hello -> Sets the mode of file hello same as olleh
