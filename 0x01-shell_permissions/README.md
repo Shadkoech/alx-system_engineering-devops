@@ -12,3 +12,4 @@ chmod 753 hello -> gives the following permissions to the file hello -rwxr-x-w x
 chmod --reference=olleh hello -> Sets the mode of file hello same as olleh
 chmod -R ugo+X -> adds execute permission to all directories for owner, group and others
 mkdir -m 751 my_dir -> creates a directory my_dir with 751 permission
+chgrp school hello -> changes the group owner to school from hello
