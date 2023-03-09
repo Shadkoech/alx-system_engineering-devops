@@ -13,3 +13,4 @@ chmod --reference=olleh hello -> Sets the mode of file hello same as olleh
 chmod -R ugo+X -> adds execute permission to all directories for owner, group and others
 mkdir -m 751 my_dir -> creates a directory my_dir with 751 permission
 chgrp school hello -> changes the group owner to school from hello
+chown -hR vincent:staff . -> Chnages owner to vincent and group owner to staff
