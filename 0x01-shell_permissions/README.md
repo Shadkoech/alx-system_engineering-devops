@@ -14,3 +14,4 @@ chmod -R ugo+X -> adds execute permission to all directories for owner, group an
 mkdir -m 751 my_dir -> creates a directory my_dir with 751 permission
 chgrp school hello -> changes the group owner to school from hello
 chown -hR vincent:staff . -> Chnages owner to vincent and group owner to staff
+chown -h vincent:staff -hello -> Chnage the owner and group owner of hello to vincent and staff
