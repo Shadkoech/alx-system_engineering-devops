@@ -10,3 +10,5 @@ head -3 iacta|tail -1  -> prints the 3rd line of the file iacta
 echo " Best School" > '\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)' ->  It is a good file that cuts iron without making a noise
 ls -la > ls_cwd_content - Write a script that writes into the file ls_cwd_content the result of the command ls -la
 tail -1 iacta >> iacta -> Duplicate last line
+find -name  "*js" -type f -delete -> script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
+
