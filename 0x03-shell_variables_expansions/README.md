@@ -15,4 +15,5 @@ echo {a..z}{a..z} |tr ' ' '\n' |grep -v "oo" ->  prints all possible combination
 One combination per line. The output should be alpha ordered, starting with aa
 printf '%.2f\n' $NUM -> Write a script that prints a number with two decimal places, followed by a new line
 printf '%x\n' $DECIMAL -> Write a script that converts a number from base 10 to base 16
+tr 'A-Za-z' 'N-ZA-Mn-za-m' -> Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 
