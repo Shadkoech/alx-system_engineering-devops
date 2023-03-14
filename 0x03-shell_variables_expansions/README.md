@@ -9,3 +9,5 @@ export BEST="School" -> creates a new global variable.
 echo $((128 + $TRUEKNOWLEDGE)) -> prints result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
 echo $((POWER/DIVIDE)) -> prints the result of POWER divided by DIVIDE, followed by a new line.
 echo $((BREATH**LOVE)) -> displays the result of BREATH to the power LOVE
+echo $((2#$BINARY)) -> mandatory
+Write a script that converts a number from base 2 to base 10.
