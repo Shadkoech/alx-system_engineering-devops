@@ -7,4 +7,4 @@ set -> lists all local variables and environment variables, and functions.
 BEST="School" -> C reates a new local variable 
 export BEST="School" -> creates a new global variable.
 echo $((128 + $TRUEKNOWLEDGE)) -> prints result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
-
+echo $((POWER/DIVIDE)) echo-e "\n" -> prints the result of POWER divided by DIVIDE, followed by a new line.
