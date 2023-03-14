@@ -11,3 +11,6 @@ echo $((POWER/DIVIDE)) -> prints the result of POWER divided by DIVIDE, followed
 echo $((BREATH**LOVE)) -> displays the result of BREATH to the power LOVE
 echo $((2#$BINARY)) -> mandatory
 Write a script that converts a number from base 2 to base 10.
+echo {a..z}{a..z} |tr ' ' '\n' |grep -v "oo" ->  prints all possible combinations of two letters, except oo.Letters are lower cases, from a to z
+One combination per line. The output should be alpha ordered, starting with aa
+
