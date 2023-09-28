@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# A Bash script that prints out "Best school" ten times over and;
+# On the 9th cycle it print "Hi" after Best school
+
+times=0
+while [ $times -lt 10 ]
+do
+	if [ $times -eq 8 ]; then
+		echo "Best School"
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	((times++))
+done
