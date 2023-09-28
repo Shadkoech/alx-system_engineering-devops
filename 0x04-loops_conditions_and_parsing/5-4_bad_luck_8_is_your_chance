@@ -7,12 +7,13 @@
 times=1
 while [ $times -le 10 ]
 do
-	echo "Best School"
 
 	if ((times == 4)); then
 		echo "bad luck"
 	elif ((times == 8)); then
 		echo "good luck"
+	else
+		echo "Best School"
 	fi
 	((times++))
 done
