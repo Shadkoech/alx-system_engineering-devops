@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# A bash script that prints out "Best School" ten times over using the Until loop
+
+times=10
+until [ $times -eq 0 ]
+do
+	echo "Best School"
+	((times--))
+done
