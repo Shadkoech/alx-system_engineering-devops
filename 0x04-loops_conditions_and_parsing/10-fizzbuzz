@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Fizzbuzz shell script for number of range 1 - 100
+# Displays:
+	#FizzBuzz when number is a multiple of 3 and 5
+	#Fizz when number is a multiple of 3
+	#Buzz when number is a multiple of 5
+	#Otherwise display the number in a list format
+
+
+for number in {1..100}
+do
+	if ((number % 15 == 0))
+	then
+		echo "FizzBuzz"
+	elif ((number % 3 == 0))
+	then
+		echo "Fizz"
+	elif ((number % 5 == 0))
+	then
+		echo "Buzz"
+	else
+		echo "$number"
+	fi
+done
