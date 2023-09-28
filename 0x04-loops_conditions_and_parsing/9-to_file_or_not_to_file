@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Main concept of operation is the file test Operators
+# Bash script providing information about the school file
+# The script does the following;
+	# Checks if file exits
+	# Reports back if the file does'nt exist
+	# Checks if the file is empty and if the file is a regular file
+
+
+if [ -f school ]; then
+	echo "school file exists"
+	if [ -s school ]; then
+		echo "school file is not empty"
+	else
+		echo "school file is empty"
+	fi
+
+	if [ -f school ]; then
+		echo "school is a regular file"
+	fi
+
+
+else
+		echo "school file doesn't exist"
+	fi
