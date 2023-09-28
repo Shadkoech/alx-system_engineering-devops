@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Bash script that displays contents of a current directory
+# The output is in a list format
+# Only part of the file name after first dash is displayed
+
+
+for file in *
+do
+	name=${file#*-}
+	echo "$name"
+done
