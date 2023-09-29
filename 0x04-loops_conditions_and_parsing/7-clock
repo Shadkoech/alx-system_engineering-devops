@@ -8,6 +8,7 @@ num_of_hours=0
 while [ $num_of_hours -le 12 ]
 do
 	echo "Hour: $num_of_hours"
+
 	minutes=1
 
 	while [ $minutes -le 59 ]
@@ -16,5 +17,5 @@ do
 		(( minutes++ ))
 	done
 
-	(( hour++ ))
+	(( num_of_hours++ ))
 done
