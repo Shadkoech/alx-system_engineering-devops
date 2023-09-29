@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This is a Bash script that prints out the visitor's IP together with HTTP status code from APache Log file
+# The format should be in IP HTTP_CODE
+# Applies awk
+
+awk '{print $1,$9}' apache-access.log
