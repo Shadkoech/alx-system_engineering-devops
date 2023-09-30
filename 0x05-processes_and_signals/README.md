@@ -8,14 +8,14 @@ Herein are projects and exercices that showcase various ways, practices and conc
 
 The following Bash scripts performs different actions showing how processes are managed;
 
-### Task 0
+## Task 0
 File
 
 	- 0-what-is-my-pid
 This is a bash script that displays its own process ID
 
 
-### Task 1
+## Task 1
 File
 
 	- 1-list_your_processes
@@ -23,7 +23,7 @@ File
 - It applies the the ps command and its flags
 
 
-### Task 2
+## Task 2
 File
 
 	- 2-show_your_bash_pid
@@ -31,7 +31,7 @@ File
 - Applies filtering ps flag
 
 
-### Task 3
+## Task 3
 File
 
 	- 3-show_your_bash_pid_made_easy
@@ -39,7 +39,7 @@ File
 - Implements the pgrep command
 
 
-### Task 4
+## Task 4
 File
 
 	- 4-to_infinity_and_beyond
@@ -47,7 +47,7 @@ File
 - Loop implemented in the file
 
 
-### Task 5
+## Task 5
 File
 
 	-  5-dont_stop_me_now
@@ -55,7 +55,7 @@ File
 - Implements the kill command
 
 
-### Task 6
+## Task 6
 File
 
 	- 6-stop_me_if_you_can
@@ -63,7 +63,7 @@ File
 - Implements the pkill command
 
 
-### Task 7
+## Task 7
 File
 
 	- 7-highlander
@@ -78,7 +78,7 @@ File
 - In the file 67-stop_me_if_you_can is a script that ends 7-highlander using the pkill command
 
 
-### Task 8
+## Task 8
 File
 
 	- 8-beheaded_process
