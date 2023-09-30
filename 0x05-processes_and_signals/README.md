@@ -1,4 +1,4 @@
-## 0x05. Processes and signals
+# 0x05. Processes and signals
 
 Herein are projects and exercices that showcase various ways, practices and concept of managing processes in Linux. Processes and signals play a very crucial role in the control and management of software applications and systems. They are directly involved in the following;
 
@@ -68,11 +68,13 @@ File
 
 	- 7-highlander
 	- 67-stop_me_if_you_can
+
 - In the file 7-highlander is a bash script that does the following;
 
-* To infinity and beyond indefinitely
-* With a sleep 2 in between each iteration
-* I am invincible!!! when receiving a SIGTERM signal
+	1. To infinity and beyond indefinitely
+	2. With a sleep 2 in between each iteration
+	3. I am invincible!!! when receiving a SIGTERM signal
+
 - In the file 67-stop_me_if_you_can is a script that ends 7-highlander using the pkill command
 
 
