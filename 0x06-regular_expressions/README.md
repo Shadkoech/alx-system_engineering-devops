@@ -59,3 +59,21 @@ A script where the regular expression is exactly matching a string that starts w
 
 
 ## Task 6: Call me maybe
+
+File
+
+	- 6-phone_number.rb
+- Script with a Regex that must match a 10 digit phone numberi
+
+
+
+## Task 7: OMG WHY ARE YOU SHOUTING?
+
+File
+
+	- 7-OMG_WHY_ARE_YOU_SHOUTING.rb
+- A Ruby script where the Regex only matches capital letters
+
+
+
+## Task 8: Textme
