@@ -41,3 +41,12 @@ Script that uses regular expression to search for strings that start with "hb" f
 
 
 ## Task 4: Repetition Token #3
+
+File
+
+	- 4-repetition_token_3.rb
+Ruby script that searches for a string stating with "hb" then followed by 0 or more of letter"t" and ends with n
+
+
+
+## Task 5: Not quite HBTN yet
