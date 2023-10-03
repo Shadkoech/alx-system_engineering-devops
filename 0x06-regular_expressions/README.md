@@ -50,3 +50,12 @@ Ruby script that searches for a string stating with "hb" then followed by 0 or m
 
 
 ## Task 5: Not quite HBTN yet
+
+File
+
+	- 5-beginning_and_end.rb
+A script where the regular expression is exactly matching a string that starts with h ends with n and can have any single character in between
+
+
+
+## Task 6: Call me maybe
