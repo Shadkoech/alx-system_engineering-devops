@@ -63,7 +63,7 @@ A script where the regular expression is exactly matching a string that starts w
 File
 
 	- 6-phone_number.rb
-- Script with a Regex that must match a 10 digit phone numberi
+Script with a Regex that must match a 10 digit phone numberi
 
 
 
@@ -72,8 +72,19 @@ File
 File
 
 	- 7-OMG_WHY_ARE_YOU_SHOUTING.rb
-- A Ruby script where the Regex only matches capital letters
+A Ruby script where the Regex only matches capital letters
 
 
 
 ## Task 8: Textme
+
+File
+
+	- 100-textme.rb
+
+A Ruby script with Regex that outputs the following;
+
+* Your script should output: [SENDER],[RECEIVER],[FLAGS]
+* The sender phone number or name (including country code if present)
+* The receiver phone number or name (including country code if present)
+* The flags that were used
