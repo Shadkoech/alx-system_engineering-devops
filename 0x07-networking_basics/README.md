@@ -70,3 +70,22 @@ Which statement is correct for the UDP box:
 * 2.It is a protocol that is transferring data in a fast way and might loss data along in the process
 Which statement is correct for the TCP worker:
 * 1.Have you received boxes x, y, z?
+
+
+
+## Task 4: TCP and UDP ports
+
+File
+
+	- 4-TCP_and_UDP_ports
+Bash script that displays listening ports:
+* That only shows listening sockets
+* That shows the PID and name of the program to which each socket belongs
+
+
+
+## Task 5: Is the host on the network
+
+File
+
+	- 5-is_the_host_on_the_network
