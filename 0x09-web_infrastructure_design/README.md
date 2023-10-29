@@ -62,7 +62,7 @@ Progressive build-up of the distributed web infrastructure making it secure, mon
 File
 
 	- 3-scale_up
-This step scales up the web infrastructure by adding the following improving its availabilty:
+This step scales up the web infrastructure by adding the following functionalities that enhances its availabilty:
 
 * 1 server
 * 1 load-balancer (HAproxy) configured as cluster with the other one
