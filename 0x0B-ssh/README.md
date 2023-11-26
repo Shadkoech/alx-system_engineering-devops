@@ -22,4 +22,7 @@ Bash script with a line to create rsa ssh key pair with flags to pass passphrase
 
 ## Task 2: Client configuration file
 
-File: 
+File:
+
+	- 2-ssh_config
+Configuring the  ~/.ssh/config and /etc/ssh/ssh_config files to ensure that it resonates to out needs of accessing the server without the need of a password
