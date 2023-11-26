@@ -11,4 +11,15 @@ Bash script that uses ssh to connect to your server using the private key ~/.ssh
 
 
 
-## Task 1:
+## Task 1: Create an SSH key pair
+
+File: 
+
+	- 1-create_ssh_key_pair
+Bash script with a line to create rsa ssh key pair with flags to pass passphrases, name of file, number bits
+
+
+
+## Task 2: Client configuration file
+
+File: 
