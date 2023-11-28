@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Bash script confirguring a new Ubuntu machine to do the folllowing:
+# Install nginx on web-01
+
+apt-get -y upgrade
+apt-get -y install nginx
+echo "Hello World!" >  /var/www/html/index.nginx-debian.html
+service nginx start
