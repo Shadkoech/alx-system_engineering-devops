@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Bash script that transfers a filefrom our client to server
 # the script takes in 4 parameters
 # 1.  FILE_PATH="$1"
