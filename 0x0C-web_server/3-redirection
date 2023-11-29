@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Bash script confirguring a new Ubuntu machine ;Install nginx on web-01
+
+apt-get -y update
+apt-get -y install nginx
+
+echo "Hello World!" >  /var/www/html/index.nginx-debian.html
+
+printf %s "server {
+  listen 80;
+  listen [::]:80 default_server;
+  root   /var/www/html;
+  index  index.html index.htm;
+
+  location /redirect_me {
+    return 301 https://www.github.com/Shadkoech/;
+  }" > /etc/nginx/sites-available/default
+
+service nginx restart
