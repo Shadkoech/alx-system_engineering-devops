@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+# Bash script confirguring a new Ubuntu machine ;Install nginx on web-01
+
+apt-get -y update
+apt-get -y install nginx
+
+mkdir -p /etc/nginx/html
+echo "Hello World!" >  /var/www/html/index.nginx-debian.html
+echo "Ceci n'est pas une page" > /etc/nginx/html/404.html
+
+printf %s "server {
+    listen 80;
+    listen [::]:80 default_server;
+    add_header X-Served-By $HOSTNAME;
+    root   /var/www/html;
+    index  index.html index.htm index.nginx-debian.html;
+    location /redirect_me {
+	return 301 https://www.github.com/Shadkoech/;
+    }
+    error_page 404 /404.html;
+    location /404.html {
+      root /etc/nginx/html;
+      internal;
+    }
+
+}" > /etc/nginx/sites-available/default
+
+service nginx restart
