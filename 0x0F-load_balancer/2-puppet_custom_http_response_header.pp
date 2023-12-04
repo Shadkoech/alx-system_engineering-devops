@@ -17,7 +17,7 @@ file_line { 'X-Served-By':
   ensure => 'present',
   path   => '/etc/nginx/sites-available/default',
   after  => 'rewrite ^/redirect_me https://github.com/Shadkoech permanent;',
-  line   => "add_header X-Served-By $HOSTNAME;",
+  line   => "add_header X-Served-By ${facts['environment']['HOSTNAME']};",
 }
 
 file { '/var/www/html/index.html':
