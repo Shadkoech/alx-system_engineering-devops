@@ -16,7 +16,7 @@ file_line { 'redirection':
 file_line { 'X-Served-By':
   ensure => 'present',
   path   => '/etc/nginx/sites-available/default',
-  after  => 'rewrite ^/redirect_me https://github.com/Shadkoech permanent;',
+  after  => 'listen 80 default_server;',
   line   => 'add_header X-Served-By ${::environment["HOSTNAME"]};',
 }
 
