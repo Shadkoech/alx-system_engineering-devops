@@ -1,5 +1,9 @@
 # installation and configuration of the nginx server using puppet lint
 
+exec { 'apt-get-update':
+  command => '/usr/bin/apt-get update',
+}
+
 package { 'nginx':
   ensure => installed,
 }
