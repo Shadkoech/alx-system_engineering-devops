@@ -1,5 +1,21 @@
 #!/usr/bin/env bash
 
-sudo apt-get -y install haproxy
-sudo nano /etc/default/haproxy
+#update package list $ install HAproxy
+apt-get update
+apt-get -y install haproxy
 
+
+#Update HAproxy confirguration file to manage load using roundrobin algorithm
+echo '
+frontend kotech
+        bind 0:80
+        default_backend web_servers
+
+backend web_servers
+        balance roundrobin
+        server 342589-web-01 54.152.59.218
+        server 342589-web-02 3.84.255.77
+' >> /etc/haproxy/haproxy.cfg
+
+# Restarting HAproxy service
+service haproxy restart
