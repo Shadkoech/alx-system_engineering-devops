@@ -17,7 +17,7 @@ file_line { 'X-Served-By':
   ensure => 'present',
   path   => '/etc/nginx/sites-available/default',
   after  => 'rewrite ^/redirect_me https://github.com/Shadkoech permanent;',
-  line   => "add_header X-Served-By ${hostname};",
+  line   => "add_header X-Served-By $HOSTNAME;",
 }
 
 file { '/var/www/html/index.html':
@@ -28,4 +28,3 @@ service { 'nginx':
   ensure  => running,
   require => Package['nginx'],
 }
-
