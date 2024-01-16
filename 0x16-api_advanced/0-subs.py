@@ -24,5 +24,5 @@ def number_of_subscribers(subreddit):
     if 'subscribers' not in output.get('data'):
         return 0
 
-    number_of_subscribers = output['data']['subscribers']
-    return (number_of_subscribers)
+    subscribers_count = output['data']['subscribers']
+    return (subscribers_count)
