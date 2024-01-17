@@ -1,7 +1,10 @@
-# Writes a new file index.html to be served on curl
+# Puppet script that replace a line from server files
+# replaces the line "class-wp-locale.phpp" to "class-wp-locale.php" i.e the right extension
 
-file { '/var/www/html/index.html':
-  ensure  => 'present',
-  content => '<html><head><title>Welcome to My Website</title></head><body><h1>Hello, World!</h1></body></html>',
-  mode    => '0644',
+
+$file_to_edit = '/var/www/html/wp-settings.php'
+
+exec { 'replace_line':
+  command => "sed -i 's/phpp/php/g' ${file_to_edit}",
+  path    => ['/bin','/usr/bin']
 }
