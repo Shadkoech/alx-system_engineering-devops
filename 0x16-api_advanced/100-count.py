@@ -10,7 +10,6 @@ def count_words(subreddit, word_list, instances={}, after="", count=0):
     """Recrusively query the API and print a
     sorted count of given Keywords """
 
-
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
     headers = {
         "User-Agent": "Google Chrome Version 120.0.6099.217"
