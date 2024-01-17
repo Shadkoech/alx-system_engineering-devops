@@ -20,7 +20,7 @@ def recurse(subreddit, hot_list=[], after=None):
         "after": after
     }
     headers = {
-            "User-Agent": "Python/requests"
+            "User-Agent": "Google Chrome Version 120.0.6099.217"
     }
     response = requests.get(url, headers=headers, params=params,
                             allow_redirects=False)
