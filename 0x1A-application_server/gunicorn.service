@@ -1,4 +1,4 @@
-# /etc/systemd/system/airbnb.service
+# /etc/systemd/system/gunicorn.service
 
 [Unit]
 Description=Gunicorn instance to serve the AirBnB_clone_v4
